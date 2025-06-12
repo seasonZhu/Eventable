@@ -1,0 +1,32 @@
+PODS:
+  - Eventable (1.0.0):
+    - RxCocoa
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+
+DEPENDENCIES:
+  - Eventable (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Eventable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Eventable: 7d127ff322625f1c4aa5eb818ae8e6d04e947807
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+
+PODFILE CHECKSUM: ab0a318bf03d65684712293cb7d44354339f2863
+
+COCOAPODS: 1.16.2

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Eventable
 //
-//  Created by zhujilong1987@163.com on 06/12/2025.
-//  Copyright (c) 2025 zhujilong1987@163.com. All rights reserved.
+//  Created by seasonZhu on 06/12/2025.
+//  Copyright (c) 2025 seasonZhu. All rights reserved.
 //
 
 import UIKit

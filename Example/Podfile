@@ -1,13 +1,7 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.6'
 
 target 'Eventable_Example' do
   pod 'Eventable', :path => '../'
-
-  target 'Eventable_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
