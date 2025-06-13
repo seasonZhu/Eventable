@@ -2,7 +2,6 @@
 
 [中文文档请点这里查看 → README_CN.md](README_CN.md)
 
-[![CI Status](https://img.shields.io/travis/zhujilong1987@163.com/Eventable.svg?style=flat)](https://travis-ci.org/zhujilong1987@163.com/Eventable)
 [![Version](https://img.shields.io/cocoapods/v/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
 [![License](https://img.shields.io/cocoapods/l/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
 [![Platform](https://img.shields.io/cocoapods/p/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
@@ -27,13 +26,15 @@ In iOS development, `NotificationCenter` is a common way for decoupled communica
 
 ## Installation
 
-Eventable supports CocoaPods integration:
+### Cocoapods
 
-```ruby
-pod 'Eventable'
-```
+Eventable supports CocoaPods 
 
-Or add to your `Podfile`:
+Also because there is already an Eventable library on CocoaPods, I am unable to publish mine with the same name.
+
+integration:
+
+add to your `Podfile`:
 
 ```ruby
 pod 'Eventable', :git => 'https://github.com/seasonZhu/Eventable.git'
@@ -43,6 +44,25 @@ Then run in your project directory:
 
 ```sh
 pod install
+```
+
+### Swift Package Manager (SPM)
+
+You can also use [Swift Package Manager](https://swift.org/package-manager/) to integrate Eventable.
+
+1. In Xcode, go to **File > Add Packages...**
+2. Enter the repository URL:
+
+   ```
+   https://github.com/seasonZhu/Eventable.git
+   ```
+
+3. Select the version you want to use.
+
+Or add the following to your `Package.swift` dependencies:
+
+```swift
+.package(url: "https://github.com/seasonZhu/Eventable.git", from: "1.0.0")
 ```
 
 ## Usage

@@ -1,6 +1,5 @@
 # Eventable
 
-[![CI Status](https://img.shields.io/travis/zhujilong1987@163.com/Eventable.svg?style=flat)](https://travis-ci.org/zhujilong1987@163.com/Eventable)
 [![Version](https://img.shields.io/cocoapods/v/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
 [![License](https://img.shields.io/cocoapods/l/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
 [![Platform](https://img.shields.io/cocoapods/p/Eventable.svg?style=flat)](https://cocoapods.org/pods/Eventable)
@@ -25,13 +24,13 @@
 
 ## 集成说明
 
-Eventable 支持 CocoaPods 集成：
+### Cocoapods
 
-```ruby
-pod 'Eventable'
-```
+Eventable 支持 CocoaPods 集成。
 
-或在你的 `Podfile` 中添加：
+因为 CocoaPods 上已经有一个名为 Eventable 的库，所以我无法以相同的名字发布我的库。
+
+在你的 `Podfile` 中添加：
 
 ```ruby
 pod 'Eventable', :git => 'https://github.com/seasonZhuZhu/Eventable.git'
@@ -41,6 +40,25 @@ pod 'Eventable', :git => 'https://github.com/seasonZhuZhu/Eventable.git'
 
 ```sh
 pod install
+```
+
+### Swift Package Manager (SPM)
+
+你也可以通过 [Swift Package Manager](https://swift.org/package-manager/) 集成 Eventable。
+
+1. 在 Xcode 菜单选择 **File > Add Packages...**
+2. 输入仓库地址：
+
+   ```
+   https://github.com/seasonZhu/Eventable.git
+   ```
+
+3. 选择你需要的版本。
+
+或者在你的 `Package.swift` dependencies 中添加：
+
+```swift
+.package(url: "https://github.com/seasonZhu/Eventable.git", from: "1.0.0")
 ```
 
 ## 使用说明
